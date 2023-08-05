@@ -10,7 +10,7 @@ public class palinPermute {
         }
         for(int i=0;i<s.length();i++){
             int position = (int)s.charAt(i);
-            compare[position] = compare[position]+1;   
+            compare[position] = compare[position]+1;
         }
         int oddCount=0,maxOdd;
         if(s.length()%2==0){
